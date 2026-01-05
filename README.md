@@ -1,10 +1,24 @@
 # Ruby Koans
 
+## Introduction
+
+This assignment is part 5 of the Vault Scholars program. Since you've already learned the basics of programming with JavaScript, you'll revisit some similar concepts but with a different programming language. Learning a backend programming language like Ruby is crucial because it allows you to build server-side applications, handle data processing, and create robust web services that power the front-end experiences users interact with.
+
+## About Ruby Koans
+
 The Ruby Koans walk you along the path to enlightenment in order to learn Ruby.
 The goal is to learn the Ruby language, syntax, structure, and some common
 functions and libraries. We also teach you culture by basing the koans on tests.
 Testing is not just something we pay lip service to, but something we
 live.  Testing is essential in your quest to learn and do great things in Ruby.
+
+## Getting Started
+
+Before you begin solving the koans, watch the first 6 minutes of this video: [Ruby Koans Speed Run](https://www.youtube.com/watch?v=smRBup900Zc). This will give you all the details you need to understand how to solve the koans. If you get stuck, you can refer back to the video for hints.
+
+## Development Environment
+
+For this assignment, you will need a working Ruby development environment. To make this easy, we've provided a ready-to-use devcontainer configuration that you can use to spin up a GitHub Codespace. This assignment must be worked on directly in Codespaces.
 
 ## The Structure
 
@@ -20,47 +34,7 @@ Some, however, require you to supply your own answer.  If you see the method `__
 double underscore) listed, it is a hint to you to supply your own code in order to
 make it work correctly.
 
-## Installing Ruby
-
-If you do not have Ruby setup, please visit http://ruby-lang.org/en/downloads/ for
-operating specific instructions.  In order to run the koans you need `ruby` and
-`rake` installed. To check your installations simply type:
-
-*nix platforms from any terminal window:
-
-```bash
-[~] $ ruby --version
-[~] $ rake --version
-```
-
-Windows from the command prompt (`cmd.exe`)
-
-```bash
-c:\ruby --version
-c:\rake --version
-```
-
-If you don't have `rake` installed, just run `gem install rake`
-
-Any response for Ruby with a version number greater than 1.8 is fine (should be
-around 1.8.6 or more). Any version of `rake` will do.
-
-## Generating the Koans
-
-A fresh checkout will not include the koans, you will need to generate
-them.
-
-```bash
-[ruby_koans] $ rake gen                       # generates the koans directory
-```
-
-If you need to regenerate the koans, thus wiping your current `koans`,
-
-```bash
-[ruby_koans] $ rake regen                     # regenerates the koans directory, wiping the original
-```
-
-## The Path To Enlightenment
+## The Path To Elightenment
 
 You can run the tests through `rake` or by calling the file itself (`rake` is the
 recommended way to run them as we might build more functionality into this task).
@@ -139,61 +113,6 @@ before the `end`).
 In this case the goal is for you to see that if you pass a value to the `assert`
 method, it will either ensure it is `true` and continue on, or fail if
 the statement is `false`.
-
-### Running the Koans automatically
-
-*This section is optional.*
-
-Normally the path to enlightenment looks like this:
-
-```bash
-cd ruby_koans
-rake
-# edit
-rake
-# edit
-rake
-# etc
-```
-
-If you prefer, you can keep the koans running in the background so that after you
-make a change in your editor, the koans will immediately run again. This will
-hopefully keep your focus on learning Ruby instead of on the command line.
-
-Install the Ruby gem (library) called `observr` and then ask it to
-"watch" the koans for changes:
-
-```bash
-cd ruby_koans
-rake
-# decide to run rake automatically from now on as you edit
-gem install observr
-observr ./koans.watchr
-```
-
-## Inspiration
-
-A special thanks to Mike Clark and Ara Howard for inspiring this
-project.  Mike Clark wrote an excellent blog post about learning Ruby
-through unit testing. This sparked an idea that has taken a bit to
-solidify, that of bringing new rubyists into the community through
-testing. Ara Howard then gave us the idea for the Koans in his ruby
-quiz entry on Meta Koans (a must for any rubyist wanting to improve
-their skills).  Also, "The Little Lisper" taught us all the value of
-the short questions/simple answers style of learning.
-
-Mike Clark's post ::  http://www.clarkware.com/cgi/blosxom/2005/03/18
-Meta Koans        ::  http://rubyquiz.com/quiz67.html
-The Little Lisper ::  http://www.amazon.com/Little-LISPer-Third-Daniel-Friedman/dp/0023397632
-
-## Other Resources
-
-The Ruby Language               ::  http://ruby-lang.org
-Try Ruby in your browser        ::  http://tryruby.org
-
-Dave Thomas' introduction to Ruby Programming Ruby (the Pick Axe) ::  http://pragprog.com/titles/ruby/programming-ruby
-
-Brian Marick's fantastic guide for beginners Everyday Scripting with Ruby    ::  http://pragprog.com/titles/bmsft/everyday-scripting-with-ruby
 
 ## Other stuff
 

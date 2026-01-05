@@ -2,6 +2,7 @@
   "name": "Ruby Koans",
   "image": "mcr.microsoft.com/devcontainers/ruby",
   "features": {},
+  "postCreateCommand": "gem install rake",
   "customizations": {
     "vscode": {
       "extensions": [
